@@ -1,0 +1,19 @@
+/* GENERAL */
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: AnironC;
+}
+
+
+/* NAVBAR */
+
+.underline{
+	text-decoration: underline;
+}
+.navigation{
+	background-color: orange;
+}
+.navbar-brand, .nav-link{
+	color: white;
+}
