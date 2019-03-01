@@ -1,4 +1,11 @@
 /* GENERAL */
+
+@font-face {
+  font-family: "AnironC";
+  src: url(police/anicb__.ttf) format("truetype");
+}
+
+
 body{
 	font-family: AnironC;
 	background-image: url("image/bg_dark.png");
@@ -109,6 +116,47 @@ li .symbole{
 	color: orange;
 }
 .description{
-	background-color: black;
 	color: white;
+	position: relative;
+	top: -100px;
+}
+.ligne{
+	text-decoration: line-through orange;
+}
+.reward1 {
+
+	text-align: center;
+	color: black;
+	font-family: Party Business;
+	font-size: 60px;
+	width: 80%;
+	position: relative;
+	top: -430px;
+	bottom: 0px;
+	left: 10%;
+	right: 0px;
+}
+.bloc_image > img {
+	opacity: 0.5;
+}
+
+.bloc_image > img:hover {
+	opacity: 1;
+}
+.bloc_image:hover .text {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+	top: -50px;
+}
+
+.bloc_image:hover .reward {
+	opacity: 0;
+}
+.Fellows{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
