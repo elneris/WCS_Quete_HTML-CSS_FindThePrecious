@@ -4,6 +4,15 @@
   font-family: "AnironC";
   src: url(police/anicb__.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Party Business";
+  src: url(police/partybusiness.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tengwar Annatar";
+  src: url(police/tngan.ttf) format("truetype");
+}
+
 
 
 body{
