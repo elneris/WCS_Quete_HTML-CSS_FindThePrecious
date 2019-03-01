@@ -7,6 +7,7 @@ h1{
 	font-size: 25px;
 	color: black;
 	padding-top: 5px;
+	text-align: center;
 }
 .soustitre{
 	font-size: 20px;
@@ -26,8 +27,6 @@ h3{
 	font-size: 25px;
 	color: orange;
 	letter-spacing: -3px;
-	padding-left: 20px;
-
 }
 .container{
 	padding: 0px;
@@ -64,4 +63,52 @@ h3{
 	display: flex;
 	justify-content: center;
 	color: grey;
+}
+.nav-link{
+	color: grey;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li .symbole{
+	opacity: 0;
+}
+.nav-pills .nav-link.active .symbole{
+	opacity: 1;
+}
+
+.text {
+	font-family: Party Business;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	top: -200px;
+}
+.reward {
+
+	background-color: white;
+	border: 3px white solid;
+	text-align: center;
+	color: black;
+	font-family: Party Business;
+	font-size: 30px;
+	border-radius: 20px;
+	width: 80%;
+	position: relative;
+	top: -450px;
+	bottom: 0px;
+	left: 10%;
+	right: 0px;
+}
+.orange{
+	color: orange;
+}
+.description{
+	background-color: black;
+	color: white;
 }
