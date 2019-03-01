@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="police/anicb__.ttf">
@@ -72,11 +72,11 @@
 		      </div>	      
 		    </div>
 		    <a class="carousel-control-prev gauche" href="#carouselExampleCaptions" role="button" data-slide="prev">
-		      <span aria-hidden="true"><img src="image/gauche.jpg"></span>
+		      <span aria-hidden="true"><img src="image/gauche.jpg" alt="gauche"></span>
 		      <span class="sr-only">Previous</span>
 		    </a>
 		    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-		      <span aria-hidden="true"><img src="image/droite.jpg"></span>
+		      <span aria-hidden="true"><img src="image/droite.jpg" alt="droite"></span>
 		      <span class="sr-only">Next</span>
 		    </a>
 		  </div>
@@ -91,67 +91,236 @@
 			<div class="bouton-pill">
 				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 				  <li class="nav-item">
-				    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><span class="symbole">b</span> Most Wanted <span class="symbole">b</span></a>
+				    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-selected="true"><span class="symbole">b</span> Most Wanted <span class="symbole">b</span></a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><span class="symbole">b</span> Most Dangerous <span class="symbole">b</span></a>
+				    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-selected="false"><span class="symbole">b</span> Most Dangerous <span class="symbole">b</span></a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><span class="symbole">b</span> Already Captured <span class="symbole">b</span></a>
+				    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-selected="false"><span class="symbole">b</span> Already Captured <span class="symbole">b</span></a>
 				  </li>
 				</ul>
 		  </div>
-
-		  <!-- Image -->
-
-			<div class="card-deck Fellows">
-			  <div class="card bg-dark">
-			  	<div class="bloc_image">
-				    <img src="image/gandalf.png" class="card-img-top" alt="gandalf">
-				    <div class="card-body">
-				      <h5 class="card-title text">Gandalf</h5>
-				      <p class="card-text reward">reward<br> <span class="orange">1000</span> golden coins</p>
-				      <p class="card-text description">A very dangerous wizard, balrog killer...</p>
-				    </div>
-			  	</div>
-			  </div>
-			  <div class="card bg-dark">
-			  	<div class="bloc_image">
-				    <img src="image/aragorn.png" class="card-img-top" alt="aragorn">
-				    <div class="card-body">
-				      <h5 class="card-title text">Aragorn</h5>
-				      <p class="card-text reward">reward<br> <span class="orange">8000</span> golden coins</p>
-				      <p class="card-text description">Sauron's finger say him his sword is dangerous...</p>
-				    </div>
-			  	</div>
-			  </div>
-			  <div class="card bg-dark">
-			  	<div class="bloc_image">
-				    <img src="image/gimli.png" class="card-img-top" alt="gimli">
-				    <div class="card-body">
-				      <h5 class="card-title text"><span class="ligne">Gimli</span></h5>
-				      <p class="card-text reward1"><span class="orange">dead</span></p>
-				      <p class="card-text description">A dwarf, with a beard and an axe...</p>
-				    </div>
-				  </div>
-			  </div>
-			</div>
-
-    </div>
-				</div>
-			  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-			  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-			</div>
 		</div>
 
-
-
-
+		<!-- Image -->
+			
+		<ul class="Fellows">			
+			<li>
+				<div id="description1">
+					<div class="blocImage">
+						<img src="image/gandalf.png" alt="photo">
+						<p class="text">Gandalf</p>
+						<p class="reward">
+							reward <span> 1000</span><br/>golden coins
+						</p>
+					</div>
+					<div class="blocImage2">				
+						<p class="text2">A very dangerous wizard, barog killer...</p>
+					</div>					
+				</div>
+			</li>
+			<li>
+				<div id="description2">
+					<div class="blocImage">
+						<img src="image/aragorn.png" alt="photo">
+						<p class="text">Aragorn</p>
+						<p class="reward">
+							reward <span> 750</span><br/>golden coins
+						</p>
+					</div>
+					<div class="blocImage2">				
+						<p class="text2">Sauron's finger say him his sword is dangerous...</p>
+					</div>
+				</div>
+			</li>			
+			<li>
+				<div id="description3">
+					<div class="blocImage">
+						<img src="image/gimli.png" alt="photo">
+						<p class="text ligne">Gimli</p>
+						<p class="reward1">
+							<span>DEAD</span>
+						</p>
+					</div>
+					<div class="blocImage2">				
+						<p class="text2">A dwarf, with a beard and an axe...</p>
+					</div>
+				</div>
+			</li>
+		</ul>		
 	</div>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<div class="container">
+		<section>
+			<h2 id="Reward">I have captured one of them, how to get my reward ?</h2>
+			<div class="row text-center">
+				<div class="col-lg-9">
+					<p>Congrat's, you have enought strengh for catch on of them, your contribution for save the Mordor is very apprecied. To get your gold coin reward, please contact Sauron himself. The road to contact him is not that far, take the proof that you have captured the Fellows and send him his head </p>
+					<p>I will send you back a new ring !</p>		
+					<div class="reward-img"> 
+						<a href="#Contact" class="btn btn-primary">Contact US</a>
+					</div>
+				</div>
+	 		</div>
+	 		<hr>
+		</section>
+	</div>
+	<section>
+	  <div class="container" id="Hunters">
+	    <header class="jumbotron my-4">
+     		<h2>Best Hunters</h2>  
+    	</header>
+	    <div class="row text-center">
+	      <div class="col-lg-4 col-md-4 mb-4">
+	        <div class="card h-100">
+	          <img class="card-img-top" src="https://wow.zamimg.com/uploads/guide/images/15777.png" alt="hunt">
+	          <div class="card-body">
+	            <h4 class="card-title">Xolotal</h4>
+	            <p class="card-text">is a striking new model being added to the Wolf family.</p>
+	          </div>
+		          <div class="card-footer">
+		            <button type="button" class="btn btn-primary" onClick="onClick1()">👍 like <span id="clicks1">985</span></button>
+		          </div>
+	        </div>
+	      </div>
+	      <div class="col-lg-4 col-md-4 mb-4">
+	        <div class="card h-100">
+	          <img class="card-img-top" src="https://wow.zamimg.com/uploads/guide/images/15779.png" alt="hunt">
+	          <div class="card-body">
+	            <h4 class="card-title">Dreamrunners</h4>
+	            <p class="card-text">such as the black and red horse shadows rare from the Broken Shore have been added to the Stag family.</p>
+	          </div>
+	          <div class="card-footer">
+	            <button class="btn btn-primary" type="button" onClick="onClick2()">👍 like <span id="clicks2">745</span></button>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+      <div class="col-lg-4 col-md-4 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://wow.zamimg.com/uploads/guide/images/15796.png" alt="hunt">
+          <div class="card-body">
+            <h4 class="card-title">Sevriss</h4>
+            <p class="card-text">There's sneaky snakes... and then there's giant cobras, which can be tamed as part of the Serpent family..</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary" type="button" onClick="onClick3()">👍 like <span id="clicks3">844</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+	</section>
+	<section>
+		<div class="container" id="Ring">
+			<h2>About the Ring</h2>
+			<div class="card h-100">
+				<div class="card-footer">
+					<h4 class="card-title">Ring Capabilities</h4>
+				</div>
+				<div class="card-body">
+					<p>what can our master Sauron do with the ring ?</p>
+					<table>						
+						<tr>
+							<td class="th">Feature</td>
+							<td class="th">Description</td>
+						</tr>
+						<tr>
+							<td>Main</td>
+							<td>One ring to rule them all</td>
+						</tr>
+						<tr>
+							<td>Invisibility</td>
+							<td>You can't see mee</td>
+						</tr>
+						<tr>
+							<td>Power</td>
+							<td>Destroy the world</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="card h-100">
+				<div class="card-footer">
+		  		<h4 class="card-title">Why the ring is awesome ?</h4>
+		  	</div>
+		 		<div class="card-body">
+		 			<div class="row text-center">
+	  				<div class="col-lg-9 block-gollum">
+	  					<p class="precious">My preciooooouuuuusssss ! Hkr Hkr , we want our precioouuuusss !!</p>		  					<p class="text-gollum">Gollum</p>
+		  			</div>
+		  		</div>
+		  	</div>
+			</div>
+		<hr>
+		</div>
+	</section>
+	<section>
+		<div class="container" id="Army">
+			<h2>Join the Mordor, We need you !</h2>
+			<div class="card h-100">
+				<div class="row text-center">
+					<div class="col-lg-3">
+						<img class="card-img-top" src="https://sd.keepcalm-o-matic.co.uk/i/fuck-school-join-the-army.png" alt="join">
+					</div>
+					<div class="col-lg-9 bloc-gollum"><br><br>
+						<p>After all you can see here, don't you want be part of this amazing Army ? Come on don't be scared there is a place for every type of hunter ! Specially for you trust me, I can tell you, You will be super Rich in less than 1 minutes</p><br>
+						<a href="http://elneris.zd.fr/about_me.php" target="_blank" class="btn btn-primary">More Info about me, the real King of the Mordor</a>				
+					</div>
+				</div>
+			</div>
+		<hr>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<h2 id="Contact">Contact Us</h2>
+			<div class="row text-center">
+	      <div class="col-lg-10 offset-1">
+		      <form method="post" action="contact.php">
+		        <label>Name</label>
+		        <input type="text" name="name" class="form-control" placeholder="Prénom" id="name" required data-validation-required-message="Entrez votre nom.">
+		        <p class="help-block text-danger"></p>
+	          <label>Email Address</label>
+	          <input type="email" name="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Entrez une adresse valide."><br>
+	          <select class="form-control">
+		          <option>I have seen one of them</option>
+		          <option>I have seen many of them</option>
+						</select>
+		   			<br>
+	          <label></label>
+	          <textarea rows="5" class="form-control" name="message" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea><br>
+	        	<input type="submit" value="Envoyer" name="envoyer" class="btn btn-primary">
+		      </form>
+	    	</div>
+	    </div>
+	    <hr>
+	  </div>
+	</section>
+	<footer>
+		<div class="container footer">
+			<div class="row text-center">
+				<div class="col-lg-3">
+					<a href="http://elneris.zd.fr/about_me.php">about me</a><br>
+	      	<a href="#Fellows">fellows</a><br>
+	     		<a href="#Army">Join our army</a> 
+				</div>
+				<div class="col-lg-3">
+					<a href="http://www.elneris.zd.fr">Retour au site elneris</a><br>
+				  <a href="#Reward">Reward conditions</a><br>
+				  <a href="http://elneris.zd.fr/blog/index.html">blog</a>
+				</div>
+				<div class="col-lg-6">
+					<a href="findtheprecious.html">Sauron4ever.com</a><br>
+					<a href="https://twitter.com/Elneris33" target="_blank">Follow him also on twitter</a>
+				</div>			
+			</div>			
+		</div>
+	</footer>
+</div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

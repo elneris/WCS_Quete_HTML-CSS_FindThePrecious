@@ -2,15 +2,15 @@
 
 @font-face {
   font-family: "AnironC";
-  src: url('police/anicb__.ttf') format("truetype");
+  src: url("police/anicb___.ttf") format("truetype");
 }
 @font-face {
   font-family: "Party Business";
-  src: url('police/partybusiness.ttf') format("truetype");
+  src: url("police/partybusiness.ttf") format("truetype");
 }
 @font-face {
   font-family: "Tengwar Annatar";
-  src: url('police/tngan.ttf') format("truetype");
+  src: url("police/tngan.ttf") format("truetype");
 }
 
 
@@ -168,4 +168,112 @@ li .symbole{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+li{
+
+	list-style-type: none;
+
+}
+
+
+
+.text2 {
+	font-family: Party Business;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+.text {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+	top: -200px;
+}
+
+.blocImage > img {
+
+	opacity: 0.7;
+
+}
+
+.blocImage {
+	width: 300px;
+	height: 400px;
+}
+.blocImage2 {
+
+	width: 300px;
+	height: 75px;
+
+}
+
+.reward {
+	background-color: white;
+	border: 3px white solid;
+	text-align: center;
+	color: black;
+	font-size: 2em;
+	border-radius: 20px;
+	width: 250px;
+	position: relative;
+	top: -450px;
+	bottom: 0px;
+	left: 20px;
+	right: 0px;
+}
+.reward .text{
+	opacity:1;
+}
+
+span {
+	color: orange;
+}
+
+.blocImage > img:hover {
+	opacity: 1;
+}
+
+.blocImage:hover .text {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+	top: -50px;
+}
+
+.blocImage:hover .reward{
+	opacity: 0;
+}
+.blocImage:hover .reward1 {
+	opacity: 0;
+}
+.Fellows{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1000px){
+	.Fellows{
+		flex-direction: column;
+	}
+	#description1, #description2, #description3{
+		width: 100%
+	}
+	li{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+}
+#description1, #description2, #description3{
+	border: 5px solid black;
 }
